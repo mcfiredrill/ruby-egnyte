@@ -16,4 +16,6 @@ require "egnyte/folder"
 require "egnyte/file"
 
 module Egnyte
+  class DomainRequired < StandardError; end
+  class UnsupportedAuthStrategy < StandardError; end
 end
